@@ -49,10 +49,8 @@ if (typeof d === 'string') {
 const mix = ['asd', 184];
 
 const mix2: (number | string | boolean)[]  = [485, 'asd', 5148, 'ews', true, false];
-
 const mix3: (string | number)[] = [152, 1485, 485];
 const mix4: (string | number)[] = ['fds', 'asf', 'asga'];
-
 const mix5: string[] | number[] = ['fds', 'asf', 'asga', 2514];
 console.log(mix5);
 

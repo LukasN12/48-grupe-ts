@@ -18,7 +18,10 @@ const maryte = {
 };
 function studentMarksAverage(student) {
     if (!Array.isArray(student.marks)) {
-        return 'Studentas neturi pazymiu.';
+        return `(${student.name}) neturi pazymiu.`;
+    }
+    if (student.marks.length === 0) {
+        return `(${student.name}) turi tuscia pazymiu masyva.`;
     }
     let sum = 0;
     for (const mark of student.marks) {

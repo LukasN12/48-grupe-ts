@@ -1,10 +1,18 @@
-type Student = {
+type Student =  {
     name: string;
     age: number;
     isMarried: boolean;
     favoriteColor?: string;
     marks?: number[];
 };
+// Kuo skiriasi nuo 'type'?
+interface Student1 {
+    name: string;
+    age: number;
+    isMarried: boolean;
+    favoriteColor?: string;
+    marks?: number[];
+}
 
 const jonas: Student = {
     name: 'Jonas',
